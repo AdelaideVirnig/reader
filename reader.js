@@ -355,6 +355,13 @@ function restoreColor(e) {
         headerSection[i].style.color = "#0c1520";
       }
 
+      var dialogBox = document.getElementsByClassName("shortDisplay");
+      for (var i = 0; i < dialogBox.length; ++i) {
+        dialogBox[i].style.color = "#020305";
+      }
+      
+      
+
       document.getElementById("voice").style.backgroundColor = "#0c1520";
       document.getElementById("speed").style.backgroundColor = "#0c1520";
       document.getElementById("pitch").style.backgroundColor = "#0c1520";
